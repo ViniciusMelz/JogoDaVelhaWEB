@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-size: 30px;
+    background-color: rgb(229, 229, 186);
+}
+
+h1 {
+    color: #333333;
+}
+
+.players {
+    margin-bottom: 20px;
+}
+
+.players label,
+.players input {
+    margin: 5px;
+    font-size: 30px;
+}
+
+.players input {
+    background-color: rgb(181, 238, 238);
+}
+
+#board {
+    margin: 0 auto;
+    width: 306px;
+    height: auto;
+    background-color: #ffffff;
+    border: 5px solid #000000;
+}
+
+.row {
+    display: flex;
+    background-color: rgb(243, 175, 198)
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    border: 5px solid #000000;
+    font-size: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.cell.X {
+    color: red;
+}
+
+.cell.O {
+    color: blue;
+}
+
+.cell:hover {
+    background-color: #e0e0e0;
+}
+
+#reset {
+    margin-top: 20px;
+    font-size: 30px;
+}
